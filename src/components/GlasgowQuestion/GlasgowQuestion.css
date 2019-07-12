@@ -1,0 +1,26 @@
+.GlasgowQuestion-container{
+  width: 100%;
+  max-width: 500px;
+  transition: all .2s;
+  
+  display: flex;
+}
+
+.GlasgowQuestion-container :nth-child(1){
+  flex: 1 0 auto;
+}
+.GlasgowQuestion-container :nth-child(2){
+  background-color: #2e7d32;
+  color: white;
+  min-width: 30px;
+  font-weight: 500;
+}
+
+.GlasgowQuestion-container  span{
+  padding: 10px;
+  margin-top: 10px ;
+  background-color: white;
+  font-weight: 500;
+  
+}
+

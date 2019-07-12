@@ -1,0 +1,10 @@
+.Navbar {
+  background-color: #3f1f68 ;
+}
+
+.Navbar h1{
+  color: #fafafafd;
+  font-weight: 500;
+  padding: 20px 0;
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+.About-container{
+  max-width: 800px;
+  margin: 40px auto;
+  
+}
+
+.About-container p {
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 20px;
+  color: #1b0738;
+  margin: 15px 0;
+  
+}
+
+.About-container p:nth-last-of-type(1n){
+  background-color: #eeeeee  ;
+ 
+}
+
+.About-container p:nth-last-of-type(2n){
+  background-color: #eeeeee ;
+ 
+}
+
+
+.About-container h2{
+  text-align: center;
+  color: #1b0738;
+}
+
+.About-container h2 .material-icons {
+  font-size: 20px;
+}

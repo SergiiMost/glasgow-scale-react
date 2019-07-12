@@ -1,0 +1,36 @@
+.GlasgowForm input {
+  width: 60px;
+  padding: 5px;
+  font-size: 25px;
+  border: 0;
+  border-bottom: 2px solid #6187f1;
+  background-color: #fafafafd;
+  text-align: center;
+  color:  #1b0738;
+}
+
+.GlasgowForm input:focus{
+  outline: none;
+  background-color:  #fafafafd;
+  border-bottom: 2px solid  #3d5afe;
+}
+
+.GlasgowForm input:hover{
+  cursor: pointer;
+}
+
+.GlasgowForm button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  outline: none;
+  border: 0;
+  background-color: #6187f1;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.GlasgowForm button:hover{
+  cursor: pointer;
+  background-color:  #3d5afe;
+}
