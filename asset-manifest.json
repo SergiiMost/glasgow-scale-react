@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/glasgow-scale-react/static/css/main.ea536655.chunk.css",
+    "main.js": "/glasgow-scale-react/static/js/main.a428d4ce.chunk.js",
+    "main.js.map": "/glasgow-scale-react/static/js/main.a428d4ce.chunk.js.map",
+    "runtime~main.js": "/glasgow-scale-react/static/js/runtime~main.6e573478.js",
+    "runtime~main.js.map": "/glasgow-scale-react/static/js/runtime~main.6e573478.js.map",
+    "static/js/2.b33f980e.chunk.js": "/glasgow-scale-react/static/js/2.b33f980e.chunk.js",
+    "static/js/2.b33f980e.chunk.js.map": "/glasgow-scale-react/static/js/2.b33f980e.chunk.js.map",
+    "index.html": "/glasgow-scale-react/index.html",
+    "precache-manifest.b230b147d8d8a8330c262a5257c005e1.js": "/glasgow-scale-react/precache-manifest.b230b147d8d8a8330c262a5257c005e1.js",
+    "service-worker.js": "/glasgow-scale-react/service-worker.js",
+    "static/css/main.ea536655.chunk.css.map": "/glasgow-scale-react/static/css/main.ea536655.chunk.css.map"
+  }
+}
