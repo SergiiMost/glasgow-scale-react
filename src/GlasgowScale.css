@@ -97,5 +97,33 @@
   min-width: 40px;
 }
 
+@media only screen and (max-device-width: 480px){
+  .GlasgowScale-container{
+    max-width: 340px;
+  }
+  .GlasgowScale-controlers{
+    margin: 20px 0;
+  }
+
+  .GlasgowScale-btn{
+    margin-top: 0;
+  }
+
+  .GlasgowScale-elements{
+    padding: 8px 10px 20px 10px;
+  }
+
+  .GlasgowScale-elements-container {
+    min-height: 265px;
+  }
+
+  .GlasgowScale-btn button {
+    font-size: 12px;
+    width: 115px;
+  }
+
+
+}
+
 
 

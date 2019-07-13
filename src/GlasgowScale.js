@@ -5,11 +5,11 @@ import GlasgowResultIcon from './components/GlasgowResultIcon/GlasgowResultIcon'
 import Navbar from './components/Navbar/Navbar'
 import About from './components/About/About'
 import Footer from './components/Footer/Footer'
-import './GlasgowScale.css'
+import uuid from "uuid/v4"
 
+import './GlasgowScale.css'
 import { scale } from './data/GlasgowData'
 import { getRandomIntInclusive } from './helpers/randomIntInclusive'
-
 
 class GlasgowScale extends Component {
   constructor(props) {
@@ -83,9 +83,9 @@ class GlasgowScale extends Component {
   }
 
   render() {
-    let elements = this.state.elements.map(e => <GlasgowQuestion gElement={e.text} gScore={e.score} displayAnswers={this.state.displayAnswers} />)
+    let elements = this.state.elements.map(e => <GlasgowQuestion gElement={e.text} gScore={e.score} displayAnswers={this.state.displayAnswers} key={uuid()} />)
     let icon = this.state.userAnswer === '' ? '' : <GlasgowResultIcon totalScore={this.state.totalScore} userAnswer={this.state.userAnswer} />
-    let color = '#e3f2fd';
+    let color = '#e3f2fd'
     if (this.state.userAnswer !== '') {
       this.state.userAnswer == this.state.totalScore ? color = '#c8e6c9 ' : color = '#ffcdd2 '
     }

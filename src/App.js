@@ -1,6 +1,5 @@
 import React from 'react';
 import GlasgowScale from './GlasgowScale'
-
 import './App.css';
 
 function App() {

@@ -2,8 +2,7 @@
   width: 100%;
   max-width: 500px;
   transition: all .2s;
-  
-  display: flex;
+  display: flex; 
 }
 
 .GlasgowQuestion-container :nth-child(1){
@@ -21,6 +20,5 @@
   margin-top: 10px ;
   background-color: white;
   font-weight: 500;
-  
 }
 

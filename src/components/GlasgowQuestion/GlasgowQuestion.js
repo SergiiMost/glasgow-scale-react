@@ -9,7 +9,6 @@ const GlasgowQuestion = (props) => {
       <span  style={{ display: show }}>{props.gScore}</span>
     </div >
   )
-
 }
 
 export default GlasgowQuestion
