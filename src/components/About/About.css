@@ -1,11 +1,12 @@
 .About-container{
   max-width: 800px;
   margin: 40px auto;
-  
+  padding: 10px;
 }
 
 .About-container p {
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 400;
   padding: 15px;
   border-radius: 20px;
   color: #1b0738;
@@ -13,18 +14,26 @@
 }
 
 .About-container p{
-  background-color: #eeeeee  ;
+  background-color: white ;
+  line-height: 1.5;
 }
 
 .About-container h2{
+  background-color: #e1dce7;
   text-align: center;
   color: #1b0738;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .About-container h2 .material-icons {
   font-size: 20px;
 }
 
+.About-container .highlighted {
+  background-color: #e3f2fd;
+  font-weight: 500;
+}
 @media only screen and (max-device-width: 480px){
   .About-container{
     max-width: 340px;

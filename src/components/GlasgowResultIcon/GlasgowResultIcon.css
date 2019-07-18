@@ -2,6 +2,12 @@
   font-size: 35px;
 }
 
+.GlasgowResultIcon-icon{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .green{
   color: #2e7d32;
 }

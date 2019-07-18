@@ -95,7 +95,7 @@ class GlasgowScale extends Component {
         <Navbar />
         <div className='GlasgowScale-container'>
           <div className='GlasgowScale-btn'>
-            <button onClick={this.handleSoloClick}>{this.state.soloQuestion ? 'Glasgow scale' : 'Solo element'} &rarr;</button>
+            <button onClick={this.handleSoloClick}>{this.state.soloQuestion ? 'Glasgow scale' : 'Solo component'} &rarr;</button>
             <button onClick={this.handleDisplayAnswers}>{this.state.displayAnswers ? 'Hide answer' : 'Display answer'} &rarr;</button>
           </div>
           <div className='GlasgowScale-controlers ' style={{ backgroundColor: color }}>
