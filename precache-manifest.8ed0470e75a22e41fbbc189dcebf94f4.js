@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efda21131e768ba33ea53f97f1221c44",
+    "revision": "d903302abe85b3e363948c88887647fb",
     "url": "/glasgow-scale-react/index.html"
   },
   {
-    "revision": "42f0c4d7b7e0126f8f09",
-    "url": "/glasgow-scale-react/static/css/main.ea536655.chunk.css"
+    "revision": "f4c52455dd4903c89f6f",
+    "url": "/glasgow-scale-react/static/css/main.0fa5c809.chunk.css"
   },
   {
     "revision": "c8ed54fc815c84e03a7c",
     "url": "/glasgow-scale-react/static/js/2.b33f980e.chunk.js"
   },
   {
-    "revision": "42f0c4d7b7e0126f8f09",
-    "url": "/glasgow-scale-react/static/js/main.a428d4ce.chunk.js"
+    "revision": "f4c52455dd4903c89f6f",
+    "url": "/glasgow-scale-react/static/js/main.ba3efe4f.chunk.js"
   },
   {
     "revision": "d48a265c2a517467d5a9",

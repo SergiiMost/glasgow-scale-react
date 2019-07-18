@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/glasgow-scale-react/precache-manifest.b230b147d8d8a8330c262a5257c005e1.js"
+  "/glasgow-scale-react/precache-manifest.8ed0470e75a22e41fbbc189dcebf94f4.js"
 );
 
 self.addEventListener('message', (event) => {
